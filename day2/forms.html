@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+
+<body>
+
+    <!-- Forms in HTML -->
+
+    <form method="post">
+
+        <!-- input fields are inline elements -->
+
+        <!-- input types in html: text, number, email -->
+
+        <!-- br - break the line -->
+
+        Name: <input type="text" name="first_name" id="first_name" placeholder="Enter your name" required maxlength="20">
+
+        <br><br>
+
+        <input type="hidden" name="secret" id="secret" value="agent123">
+        <br><br>
+
+        USN: <input type="text" name="usn" id="usn" placeholder="Enter your USN" readonly value="1CE24CS056">
+
+        Age: <input type="number" name="age" id="age" min="0" max="100" placeholder=" age"required>
+
+        <br><br>
+
+        Email Id: <input type="email" name="email_id" id="email_id" placeholder="example@gmail.com">
+
+        <br><br>
+
+        Password: <input type="password" name="password" id="password"  minlength="8" maxlength="16" placeholder="Enter your password">
+
+        <br><br>
+
+        <label for="dob">DOB:</label>
+
+        <input type="date" name="dob" id="dob"min="2000-01-01" max="2025-10-10">
+
+        <br><br>
+
+        <label for="hbdweek">Birthday Week:</label>
+
+        <input type="week" name="hbdweek" id="hbdweek">
+
+        <br><br>
+        <label for="hbdmonth">Birthday Month:</label>
+        <input type="month" name="hbdmonth" id="hbdmonth">
+        <br><br>
+        <label for="hbddate">Birthday & time</label>
+        <input type="datetime-local" name="hbddate" id="hbddate">
+        <br><br>
+
+        <label for="phone">Phone:</label>
+
+        <input type="tel" name="phone" id="phone">
+
+        <br><br>
+
+        <label for="temp_address">Temperory Address:</label>
+
+        <textarea name="temp_address" id="temp_address" rows="5" cols="20"></textarea>
+
+        <br><br>
+
+        <label for="per_address">Permanent Address:</label>
+
+        <textarea name="per_address" id="per_address" rows="5" cols="20"></textarea>
+
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <!-- for radio button select for single  -->
+        <!-- same name diff id -->
+
+        <input type="radio" name="gender" id="male" value="Male">
+        <!-- label for=used for naming -->
+
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="Female">
+
+        <label for="female">Female</label>
+
+        <input type="radio" name="others" id="others" value="Others">
+
+        <label for="others">Others</label>
+
+        <br><br>
+
+        <label for="hobbies">Hobbies:</label>
+        <!-- diff name diff id alow multiple selection for checkbox -->
+
+        <input type="checkbox" name="talking" id="talking" value="Talk">
+
+        <label for="talking">Talking</label>
+
+        <input type="checkbox" name="travelling" id="travelling" value="Trave">
+
+        <label for="travelling">Travelling</label>
+
+        <input type="checkbox" name="hiking" id="hiking" value="Hike">
+
+        <label for="hiking">Hiking</label>
+
+        <input type="checkbox" name="gaming" id="gaming" value="play">
+
+        <label for="gaming">Gaming</label>
+
+        
+
+        <br><br>
+
+        <label for="state">State:</label>
+
+        <select name="state" id="state">
+
+            <option value="KA"selected>Karnataka</option>
+
+            <option value="TN">Tamil Nadu</option>
+
+            <option value="KL">Kerala</option>
+
+            <option value="MH">Maharashtra</option>
+
+            <option value="UP">Uttar Pradesh</option>
+
+            <option value="GJ">Gujarat</option>
+
+            <option value="AP">Andhra Pradesh</option>
+
+            <option value="TS">Telangana</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="photos">Upload Picture:</label>
+
+        <input type="file" name="photos" id="photos" accept="image/*" multiple>
+
+        <br><br>
+
+        <label for="rating">Give Rating:</label>
+
+        <input type="range" name="rating" id="rating"value="0" >
+
+        <br><br>
+
+        <label for="fav_color">Favorite Color:</label>
+
+        <input type="color" name="fav_color" id="fav_color">
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">     
+
+
+    </form>
+
+</body>
+
+
+</html>
+
+
