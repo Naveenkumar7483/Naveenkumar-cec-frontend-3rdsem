@@ -1,0 +1,31 @@
+.navbar{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-link{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.heading{
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+
+.para{
+    font-size: 20px;
+    margin: 20px;
+    color: blueviolet;
+    text-align: justify;
+}

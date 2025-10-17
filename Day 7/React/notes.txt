@@ -1,0 +1,4 @@
+
+npmproject
+
+npm Create vite@latest first-react-app --template react
